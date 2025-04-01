@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model (which includes preprocessing)
-model = joblib.load("C:/Users/PC/Desktop/ML/Projects/HeartDiseasePrediction/model.pk1")
+model = joblib.load("model.pk1")
 
 # Define the input fields
 st.title("Heart Disease Prediction App")
